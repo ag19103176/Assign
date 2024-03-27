@@ -20,7 +20,6 @@ router.get("/combinedAll", async (req, res) => {
       pieChart: pieChartData,
     };
 
-    // Send the combined JSON response
     res.json(combinedData);
   } catch (error) {
     console.error("Error fetching combined data:", error);
